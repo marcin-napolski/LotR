@@ -8,6 +8,11 @@ public class Main {
 		Elf legolas = new Elf();
 		Dwarf gimli = new Dwarf();
 		
+		// an example of polymorphism - more specific object type assigned to a variable of more general reference type
+        	Orc grishnákh = new UrukHai();
+        	grishnákh.fight();
+        	//grishnákh.setFire(); -- THIS WILL NOT WORK! method undefined for Orc
+        	((UrukHai)grishnákh).setFire(); // casting variable type -- THIS WILL WORK NOW!
 
 	}
 
