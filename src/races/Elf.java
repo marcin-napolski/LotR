@@ -5,5 +5,12 @@ public class Elf {
 	public Elf() {
 		System.out.println("You have my bow!");
 	}
-
+	public short getAge() {
+		return age;
+	}
+	public void setAge(short age) {
+		this.age = age;
+	}
+	private short age;
+	
 }
