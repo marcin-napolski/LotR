@@ -13,6 +13,10 @@ public class Main {
         	grishnákh.fight();
         	//grishnákh.setFire(); -- THIS WILL NOT WORK! method undefined for Orc
         	((UrukHai)grishnákh).setFire(); // casting variable type -- THIS WILL WORK NOW!
+		
+		// setting age of Legolas
+		legolas.setAge((short) 501);
+		System.out.println(legolas.getAge());
 
 	}
 
