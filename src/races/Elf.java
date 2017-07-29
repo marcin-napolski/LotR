@@ -11,6 +11,8 @@ public class Elf {
 	public void setAge(short age) {
 		this.age = age;
 	}
+	// short - 16 bits - values from -32768 to 32767
 	private short age;
+	
 	
 }
